@@ -1,7 +1,7 @@
 from neo4j import GraphDatabase, RoutingControl
 
 URI = "neo4j://localhost:7687"
-AUTH = ("neo4j", "utsgraf2026")
+AUTH = ("neo4j", "PASS")
 
 def add_friend(driver, name, friend_name):
     driver.execute_query(
